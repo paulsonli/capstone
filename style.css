@@ -30,3 +30,8 @@
     background-color: blue;
     border-color: red;
 }
+
+#missile{
+    position: absolute;
+    width: 50px;
+}
