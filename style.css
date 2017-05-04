@@ -16,7 +16,7 @@
     
 }
 
-#miss{
+#lives{
     position: absolute;
     right: 40%;
 }
@@ -31,7 +31,7 @@
     border-color: red;
 }
 
-#missile{
+.missile{
     position: absolute;
-    width: 50px;
+    width: 30px;
 }
