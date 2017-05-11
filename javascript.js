@@ -56,7 +56,7 @@ $(document).ready(function (){
                 if (picLeft <= paddleRight && picRight >= paddleLeft && picBottom >= paddleTop) {
                     $(".missile").delete;
                     $(".missile").hide();
-                    score += Math.floor((Math.random() * 10) + 1) + 19;
+                    score += Math.floor((Math.random() * 10) + 1) + 15;
                     $("#scoreNumber").html(score);
                     clearInterval(interval);
                     loop();
@@ -67,7 +67,7 @@ $(document).ready(function (){
                         $(".missile").hide();
                         //life--;
                         //$("#liveNumber").html(life);
-                        score -= Math.floor((Math.random() * 10) + 1) + 3;
+                        score -= Math.floor((Math.random() * 15) + 1) + 17;
                         $("#scoreNumber").html(score);
                         clearInterval(interval);
                         loop();
