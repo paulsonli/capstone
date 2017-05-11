@@ -13,12 +13,14 @@
 #score{
     position: absolute;
     left: 40%;
+    top: 13%;
     
 }
 
-#lives{
+#rank{
     position: absolute;
-    right: 40%;
+    right: 35%;
+    top: 13%;
 }
 
 #paddle{
@@ -34,4 +36,8 @@
 .missile{
     position: absolute;
     width: 30px;
+}
+
+#medal{
+    height: 20px;
 }
