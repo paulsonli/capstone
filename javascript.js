@@ -30,16 +30,16 @@ $(document).ready(function (){
             speed -= 5;
         }
         if (score >= 700){
-            speed -= 10;
+            speed -= 7;
         }
         if (score >= 900){
-            speed -= 10.5;
+            speed -= 9;
         }
         if (score >= 1100){
-            speed -= 11;
+            speed -= 9.5;
         }
         if (score >= 1500){
-            speed -= 11.5;
+            speed -= 10;
         }
         
         
