@@ -25,15 +25,15 @@ $(document).ready(function (){
         function loop() {
             $(".missile").position().top = $("#container").offset().top;
             var RNGspawn = window.innerWidth * 0.25 + Math.floor((Math.random() * width) - $(".missile").width() * 0.5);
-            var speed = 50;
             $(".missile").css("left", RNGspawn);
             $('.missile').css("top", "0");
             $(".missile").show();
+            var speed = 50;
             if (score >= 200){
-                score -= 2;
+                speed -= 2;
             }
             if (score >= 300){
-                score -= 3;
+                speed -= 3;
             }
             if (score >= 400){
                 speed -= 4;
@@ -53,7 +53,7 @@ $(document).ready(function (){
             if (score >= 1500){
                 speed -= 10;
             }
-            
+            console.log(speed);
             
                   var interval = setInterval(function(){   
                     var picTop = $(".missile").offset().top;
@@ -87,6 +87,7 @@ $(document).ready(function (){
                     $(".missile").css("top", $(".missile").offset().top + 10);
                 },speed);
                 
+                //medals
                 if (score >= 100){
                             $("#medalName").html("Bronze"); 
                             $("#medal").attr("src", "pics/Bronze1.png");

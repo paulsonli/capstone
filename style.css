@@ -45,6 +45,7 @@
 
 #buttonDiv{
     text-align: center;
+    top: 15%;
 }
 
 #button{
@@ -55,7 +56,6 @@
     -webkit-box-shadow: 0px 5px 10px #ba3b00;
     -moz-box-shadow: 0px 5px 10px #ba3b00;
     box-shadow: 0px 5px 10px #ba3b00;
-    
 }
 
 #button:hover{
@@ -80,8 +80,18 @@
     right: 0;
     bottom: 0;
     left: 0;
-    width: 100px;
+    width: 300px;
     height: 100px;
     text-align: center;
     font-size: 45px;
+}
+
+.instructions{
+    width: 200px;
+}
+
+#help{
+    width: 200px;
+    margin: auto 0;
+    margin-left: 10px;
 }
